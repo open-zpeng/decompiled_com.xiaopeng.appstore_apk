@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/app_list_item_layout_close_padding_start_top" android:top="@dimen/app_list_item_layout_close_padding_start_top" android:right="@dimen/app_list_item_layout_close_padding_end_bottom" android:bottom="@dimen/app_list_item_layout_close_padding_end_bottom">
+        <shape android:shape="oval">
+            <solid android:color="#c3c9dc"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_delete_app" android:left="@dimen/app_list_item_layout_close_icon_padding_start_top" android:top="@dimen/app_list_item_layout_close_icon_padding_start_top" android:right="@dimen/app_list_item_layout_close_icon_padding_end_bottom" android:bottom="@dimen/app_list_item_layout_close_icon_padding_end_bottom"/>
+</layer-list>

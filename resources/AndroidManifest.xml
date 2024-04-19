@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="372" android:versionName="VV1.6.0_20230915224106_Release" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" package="com.xiaopeng.appstore" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <permission android:label="@string/app_remote_state_read_permission_label" android:name="com.xiaopeng.appstore.permission.READ_APP_REMOTE_STATES" android:protectionLevel="normal" android:description="@string/app_remote_state_read_permission_desc"/>
+    <permission android:label="@string/app_remote_state_write_permission_label" android:name="com.xiaopeng.appstore.permission.WRITE_APP_REMOTE_STATES" android:protectionLevel="signature" android:description="@string/app_remote_state_write_permission_desc"/>
+    <permission android:label="@string/app_remote_state_read_permission_label" android:name="com.xiaopeng.appstore.permission.READ_USER_AGREEMENT_STATES" android:protectionLevel="normal" android:description="@string/app_remote_state_read_permission_desc"/>
+    <permission android:label="@string/app_local_state_read_permission_label" android:name="com.xiaopeng.appstore.permission.READ_APP_LOCAL_STATES" android:protectionLevel="signature" android:description="@string/app_local_state_read_permission_desc"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.xiaopeng.appstore.permission.READ_ASSEMBLE_STATES"/>
+    <uses-permission android:name="com.xiaopeng.permission.IPC"/>
+    <uses-permission android:name="com.xiaopeng.permission.SERVICE"/>
+    <uses-permission android:name="xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="com.xiaopeng.permission.BROADCAST"/>
+    <uses-permission android:name="com.xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SYSTEM_DELEGATE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.read"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.write"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.xiaopeng.appstore.StoreApplication" android:debuggable="true" android:allowBackup="false" android:supportsRtl="true" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.xiaopeng.metadata.shared.display.state" android:value="1"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.xiaopeng.appstore.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="com.xiaopeng.appstore.ui.MainActivity" android:launchMode="singleTask" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="320"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_LIST"/>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_STORE"/>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APPLET_LIST"/>
+                <action android:name="com.xiaopeng.systemui.action.SHOW_APPPANEL"/>
+                <category android:name="android.intent.category.XPENG"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="market"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiaopeng.appstore.installer.XpInstallForbiddenActivity" android:exported="false" android:taskAffinity="com.xiaopeng.appstore.installer" android:excludeFromRecents="true" android:configChanges="keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Dialog" android:name="com.xiaopeng.appstore.installer.InstallDialogActivity" android:exported="false" android:taskAffinity="com.xiaopeng.appstore.installer" android:excludeFromRecents="true" android:configChanges="keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+        </activity>
+        <service android:name="com.xiaopeng.appstore.installer.StartInstallService" android:exported="false"/>
+        <service android:label="@string/icon_badging_service_title" android:name="com.xiaopeng.appstore.common_ui.NotificationListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.xiaopeng.appstore.ui.AppStoreBroadcastReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_LIST"/>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_STORE"/>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APPLET_LIST"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_STORE"/>
+                <data android:scheme="market"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.appstore.ui.AppListChangeReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.XP_NAPA_APP_LIST_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.appstore.resource_migrate.MigrateBroadcastReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.xiaopeng.appstore.intent.action.MIGRATE_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.appstore.ConfigReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.appstore.intent.action.CONFIG_MODE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/XAppTheme.XPanel.Dialog" android:name="com.xiaopeng.appstore.international.download.DownloadTipsPopupActivity" android:exported="false" android:taskAffinity="com.xiaopeng.appstore.installer" android:excludeFromRecents="true" android:configChanges="keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+        </activity>
+        <service android:name="com.xiaopeng.appstore.appserver_common.service.AppStoreService" android:exported="true"/>
+        <provider android:name="com.xiaopeng.appstore.appstore_biz.logic.dataexport.AppStoreExportProvider" android:exported="true" android:authorities="appstore">
+            <path-permission android:readPermission="com.xiaopeng.appstore.permission.READ_APP_REMOTE_STATES" android:writePermission="com.xiaopeng.appstore.permission.WRITE_APP_REMOTE_STATES" android:pathPrefix="/remote_states"/>
+            <path-permission android:readPermission="com.xiaopeng.appstore.permission.READ_USER_AGREEMENT_STATES" android:pathPrefix="/agreement_states"/>
+            <path-permission android:readPermission="com.xiaopeng.appstore.permission.READ_APP_LOCAL_STATES" android:pathPrefix="/app_local_states"/>
+        </provider>
+        <service android:name="com.xiaopeng.appstore.appstore_biz.logic.push.PushDownloadService" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.xiaopeng.appstore.appstore_biz.logic.push.UploadAppManager.BootCompleteReceiver"/>
+        <receiver android:name="com.xiaopeng.appstore.appstore_biz.logic.StoreLogicReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.businessevent"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.INSTALL_FORBIDDEN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.CLEAN_APP_CACHES"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.SHOW_APP_UPDATE_DIALOG"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xiaopeng.appstore.appstore_biz.logic.LogicIntentService" android:exported="false"/>
+        <provider android:name="com.liulishuo.okdownload.OkDownloadProvider" android:exported="false" android:authorities="com.xiaopeng.appstore.com.liulishuo.okdownload"/>
+        <service android:name="com.xiaopeng.lib.framework.ipcmodule.AgentService" android:permission="com.xiaopeng.permission.SERVICE" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.ipc.AgentService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.xiaopeng.aar.server.ipc.KeepAliveService" android:exported="false"/>
+        <receiver android:name="com.xiaopeng.downloadcenter.DownLoadReceiver"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.xiaopeng.appstore.lifecycle-process"/>
+        <provider android:name="com.xiaopeng.lib.apirouter.server.ApiPublisherProvider" android:exported="true" android:authorities="com.xiaopeng.appstore.api.publisher"/>
+        <provider android:name="leakcanary.internal.PlumberInstaller" android:enabled="@bool/leak_canary_plumber_auto_install" android:exported="false" android:authorities="com.xiaopeng.appstore.plumber-installer"/>
+        <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false"/>
+    </application>
+</manifest>

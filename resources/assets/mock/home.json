@@ -1,0 +1,1002 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "layout": "{\"type\":10000}",
+        "data": {
+            "id": "361",
+            "desc": "素材备注001-e",
+            "list": [
+                {
+                    "layout": "{\"type\":11001}",
+                    "data": {
+                        "id": "362",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "ad_img": [
+                                        "http://xps18.xiaopeng.com/prod/appstore/image/58%E5%90%8C%E5%9F%8E_g8z5.jpg"
+                                    ],
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "dependent_apps": [
+                                        {
+                                            "app_id": "1",
+                                            "package_name": "",
+                                            "type": 1
+                                        },
+                                        {
+                                            "app_id": "2",
+                                            "package_name": "",
+                                            "type": 2
+                                        }
+                                    ]
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "ad_img": [
+                                        "http://xps18.xiaopeng.com/prod/appstore/image/4k_afse.jpg"
+                                    ],
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ]
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12001}",
+                    "data": {
+                        "id": "365",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "2",
+                                    "desc": "宝宝巴士儿歌",
+                                    "size": 44829.0,
+                                    "md5": "46c3caf336c4825781542ff345f00915",
+                                    "title": "宝宝巴士儿歌",
+                                    "package_name": "com.sinyee.babybus.chants.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png"
+                                    },
+                                    "version_code": 2402,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/babybushd_2.4.2_2402.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "4",
+                                    "desc": "斗鱼-每个人的直播平台，你想看的都在这里！",
+                                    "size": 11468.0,
+                                    "md5": "f69b29acc91dcb6af3ecf75842b21f68",
+                                    "title": "斗鱼",
+                                    "package_name": "com.douyu.hd.air.douyutv",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png"
+                                    },
+                                    "version_code": 173,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/douyutvhd_1.2.1_173.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "6",
+                                    "desc": "十年匠心，数字阅读的不二选择！",
+                                    "size": 27623.0,
+                                    "md5": "1723411d4ea5621a361fc07d82be0171",
+                                    "title": "掌阅",
+                                    "package_name": "com.chaozh.iReaderFree",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/ireader.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/ireader.png"
+                                    },
+                                    "version_code": 71801,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/ireader_7.18.0_71801.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "精品推荐"
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12002}",
+                    "data": {
+                        "id": "372",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "2",
+                                    "desc": "宝宝巴士儿歌",
+                                    "size": 44829.0,
+                                    "md5": "46c3caf336c4825781542ff345f00915",
+                                    "title": "宝宝巴士儿歌",
+                                    "package_name": "com.sinyee.babybus.chants.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png"
+                                    },
+                                    "version_code": 2402,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/babybushd_2.4.2_2402.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "4",
+                                    "desc": "斗鱼-每个人的直播平台，你想看的都在这里！",
+                                    "size": 11468.0,
+                                    "md5": "f69b29acc91dcb6af3ecf75842b21f68",
+                                    "title": "斗鱼",
+                                    "package_name": "com.douyu.hd.air.douyutv",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png"
+                                    },
+                                    "version_code": 173,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/douyutvhd_1.2.1_173.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "6",
+                                    "desc": "十年匠心，数字阅读的不二选择！",
+                                    "size": 27623.0,
+                                    "md5": "1723411d4ea5621a361fc07d82be0171",
+                                    "title": "掌阅",
+                                    "package_name": "com.chaozh.iReaderFree",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/ireader.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/ireader.png"
+                                    },
+                                    "version_code": 71801,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/ireader_7.18.0_71801.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "7",
+                                    "desc": "挑好物，上京东",
+                                    "size": 87216.0,
+                                    "md5": "355f3675bfb40725d2423dc430a3b761",
+                                    "title": "京东",
+                                    "package_name": "com.jingdong.app.mall",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png"
+                                    },
+                                    "version_code": 68202,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/jd_8.1.4_68202.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "8",
+                                    "desc": "听歌用酷我，资源多又全",
+                                    "size": 44829.0,
+                                    "md5": "e7dd3bdb9f8ae7c4e049da2604c59a96",
+                                    "title": "酷我音乐",
+                                    "package_name": "cn.kuwo.kwmusichd",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/kuwo.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/kuwo.png"
+                                    },
+                                    "version_code": 8523,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/kuwohd_8.5.2.3_8523.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "22",
+                                    "desc": "QQ浏览器文件服务解锁全部高级功能，微信/QQ看过的照片、视频、文档在这儿全能找到，自动备份永不丢失",
+                                    "size": 34569.0,
+                                    "md5": "ae47597780e7955704c595ef2f89d91f",
+                                    "title": "QQ浏览器",
+                                    "package_name": "com.tencent.mtt",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/qqbrowser.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/qqbrowser.png"
+                                    },
+                                    "version_code": 9505050,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/qqbrowser_9.5.0.5050_9505050.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "3*n"
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12003}",
+                    "data": {
+                        "id": "382",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "2",
+                                    "desc": "宝宝巴士儿歌",
+                                    "size": 44829.0,
+                                    "md5": "46c3caf336c4825781542ff345f00915",
+                                    "title": "宝宝巴士儿歌",
+                                    "package_name": "com.sinyee.babybus.chants.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/babybus.png"
+                                    },
+                                    "version_code": 2402,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/babybushd_2.4.2_2402.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "4",
+                                    "desc": "斗鱼-每个人的直播平台，你想看的都在这里！",
+                                    "size": 11468.0,
+                                    "md5": "f69b29acc91dcb6af3ecf75842b21f68",
+                                    "title": "斗鱼",
+                                    "package_name": "com.douyu.hd.air.douyutv",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/douyu.png"
+                                    },
+                                    "version_code": 173,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/douyutvhd_1.2.1_173.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "7",
+                                    "desc": "挑好物，上京东",
+                                    "size": 87216.0,
+                                    "md5": "355f3675bfb40725d2423dc430a3b761",
+                                    "title": "京东",
+                                    "package_name": "com.jingdong.app.mall",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png"
+                                    },
+                                    "version_code": 68202,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/jd_8.1.4_68202.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "30",
+                                    "desc": "唯品会",
+                                    "size": 68329.48,
+                                    "md5": "6158807e52b8d872a637963cf18a4590",
+                                    "title": "唯品会",
+                                    "package_name": "com.achievo.vipshop",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png"
+                                    },
+                                    "version_code": 70906,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/weipinhui_70906_jne1.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "23",
+                                    "desc": "万能的淘宝，只有你想不到，没有淘宝上买不到",
+                                    "size": 106456.0,
+                                    "md5": "4ffe7c9991b17e11cb9d1e4fee084726",
+                                    "title": "淘宝",
+                                    "package_name": "com.taobao.taobao",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/taobao.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/taobao.png"
+                                    },
+                                    "version_code": 9505050,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/taobao_8.9.0_246.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "3个以上"
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12004}",
+                    "data": {
+                        "id": "392",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "30",
+                                    "desc": "唯品会",
+                                    "size": 68329.48,
+                                    "md5": "6158807e52b8d872a637963cf18a4590",
+                                    "title": "唯品会",
+                                    "package_name": "com.achievo.vipshop",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png"
+                                    },
+                                    "version_code": 70906,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/weipinhui_70906_jne1.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "25",
+                                    "desc": "腾讯课堂",
+                                    "size": 38491.72,
+                                    "md5": "17fc5f22bd62533b38e1a32e2ab8ca69",
+                                    "title": "腾讯课堂",
+                                    "package_name": "com.tencent.edu",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png"
+                                    },
+                                    "version_code": 231,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/course_2017_4.6.1.1_2019.11.04_t1re.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "7",
+                                    "desc": "挑好物，上京东",
+                                    "size": 87216.0,
+                                    "md5": "355f3675bfb40725d2423dc430a3b761",
+                                    "title": "京东",
+                                    "package_name": "com.jingdong.app.mall",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png"
+                                    },
+                                    "version_code": 68202,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/jd_8.1.4_68202.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "2*n"
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12005}",
+                    "data": {
+                        "id": "392",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "30",
+                                    "desc": "唯品会",
+                                    "size": 68329.48,
+                                    "md5": "6158807e52b8d872a637963cf18a4590",
+                                    "title": "唯品会",
+                                    "package_name": "com.achievo.vipshop",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png"
+                                    },
+                                    "version_code": 70906,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/weipinhui_70906_jne1.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "25",
+                                    "desc": "腾讯课堂",
+                                    "size": 38491.72,
+                                    "md5": "17fc5f22bd62533b38e1a32e2ab8ca69",
+                                    "title": "腾讯课堂",
+                                    "package_name": "com.tencent.edu",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png"
+                                    },
+                                    "version_code": 231,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/course_2017_4.6.1.1_2019.11.04_t1re.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "7",
+                                    "desc": "挑好物，上京东",
+                                    "size": 87216.0,
+                                    "md5": "355f3675bfb40725d2423dc430a3b761",
+                                    "title": "京东",
+                                    "package_name": "com.jingdong.app.mall",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png"
+                                    },
+                                    "version_code": 68202,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/jd_8.1.4_68202.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "2*n"
+                    },
+                    "content_type": 1
+                },
+                {
+                    "layout": "{\"type\":12006}",
+                    "data": {
+                        "id": "392",
+                        "list": [
+                            {
+                                "data": {
+                                    "id": "30",
+                                    "desc": "唯品会",
+                                    "size": 68329.48,
+                                    "md5": "6158807e52b8d872a637963cf18a4590",
+                                    "title": "唯品会",
+                                    "package_name": "com.achievo.vipshop",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576492155727_xlql.png"
+                                    },
+                                    "version_code": 70906,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/weipinhui_70906_jne1.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "25",
+                                    "desc": "腾讯课堂",
+                                    "size": 38491.72,
+                                    "md5": "17fc5f22bd62533b38e1a32e2ab8ca69",
+                                    "title": "腾讯课堂",
+                                    "package_name": "com.tencent.edu",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/app_icon_1576490774716_7ccf.png"
+                                    },
+                                    "version_code": 231,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/course_2017_4.6.1.1_2019.11.04_t1re.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "1",
+                                    "desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+                                    "size": 84527.0,
+                                    "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+                                    "title": "58同城",
+                                    "package_name": "com.wuba",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/58.png"
+                                    },
+                                    "version_code": 82302,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/58_8.23.2_82302.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "3",
+                                    "desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+                                    "size": 15953.0,
+                                    "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+                                    "title": "车点点",
+                                    "package_name": "com.chediandian.app",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/chediandian.png"
+                                    },
+                                    "version_code": 256,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/chediandian_7.4.1_256.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "5",
+                                    "desc": "超过十亿人使用的手机应用",
+                                    "size": 25133.0,
+                                    "md5": "242a743f66dded115a26e928bf03d7d7",
+                                    "title": "爱奇艺",
+                                    "package_name": "com.qiyi.video.pad",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/iqiyi.png"
+                                    },
+                                    "version_code": 80740,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/iqiyihd_7.4_80740.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            },
+                            {
+                                "data": {
+                                    "id": "7",
+                                    "desc": "挑好物，上京东",
+                                    "size": 87216.0,
+                                    "md5": "355f3675bfb40725d2423dc430a3b761",
+                                    "title": "京东",
+                                    "package_name": "com.jingdong.app.mall",
+                                    "app_icons": {
+                                        "small_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png",
+                                        "large_icon": "http://xps18.xiaopeng.com/prod/appstore/image/icon/jd.png"
+                                    },
+                                    "version_code": 68202,
+                                    "download_url": "http://dl03.xiaopeng.com/prod/appstore/apk/jd_8.1.4_68202.apk",
+                                    "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                                    "show_back_button": true,
+                                    "allow_gear": "2",
+                                    "display_region": "1"
+                                },
+                                "content_type": 2
+                            }
+                        ],
+                        "title": "2*n"
+                    },
+                    "content_type": 1
+                }
+            ],
+            "title": "E28素材001-e"
+        },
+        "content_type": 1
+    }
+}

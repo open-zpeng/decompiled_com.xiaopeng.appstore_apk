@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:layout_gravity="end|top" android:id="@+id/btn_alipay_authorize" android:background="@drawable/alipay_authorize_shape" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/alipay_authorize_width" android:layout_marginTop="30dp" android:layout_marginRight="25dp">
+        <ImageView android:id="@+id/alipay_avatar" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_alipay_avatar"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="20dp" android:layout_toEndOf="@+id/alipay_avatar">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="20dp" android:textColor="@color/x_theme_text_01" android:ellipsize="end" android:id="@+id/alipay_nickname" android:paddingRight="20dp" android:layout_width="140dp" android:layout_height="wrap_content" android:text="@string/alipay_authorize_text" android:maxLines="1"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="20dp" android:textColor="@color/x_theme_text_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alipay_logout_text"/>
+        </LinearLayout>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <com.xiaopeng.appstore.common_ui.common.base.FadingEdgeRecyclerView android:layout_gravity="center_horizontal" android:id="@+id/root_layout" android:paddingTop="@dimen/program_list_padding_top" android:paddingBottom="@dimen/content_margin_bottom" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/list_margin_top" android:paddingStart="@dimen/program_list_padding_start" android:paddingEnd="@dimen/program_list_padding_start"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/progress_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XProgressBar android:id="@+id/progress_bar" android:layout_width="@dimen/list_load_progress_width" android:layout_height="wrap_content" android:indeterminate="false" style="@style/XProgressBar.Horizontal"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:id="@+id/tv_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/page_error_icon_margin_bottom"/>
+    </LinearLayout>
+    <include android:id="@+id/layout_error" android:visibility="gone" layout="@layout/layout_net_error"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

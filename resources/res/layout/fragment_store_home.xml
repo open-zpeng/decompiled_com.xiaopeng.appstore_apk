@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/content_store_home"/>
+    <com.xiaopeng.xui.widget.XLoading android:id="@+id/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/XLoading.Large"/>
+    <include android:id="@+id/error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_net_error"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

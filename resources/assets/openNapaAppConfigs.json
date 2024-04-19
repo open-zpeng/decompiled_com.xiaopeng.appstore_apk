@@ -1,0 +1,72 @@
+{
+  "XPPlugin_MusicApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "小鹏音乐"
+  },
+  "XPPlugin_BlueToothCallApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "蓝牙电话"
+  },
+  "XPPlugin_EnergyCenterApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "能量中心"
+  },
+  "XPPlugin_CameraApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "摄像头"
+  },
+  "XPPlugin_CarControlApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "设置"
+  },
+  "XPPlugin_XPLabApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "小鹏实验室"
+  },
+  "XPPlugin_UserCenterApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "个人中心"
+  },
+  "XPPlugin_UserManualUIApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "用户手册"
+  },
+  "XPPlugin_XiaoPApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "小P"
+  },
+  "XPPlugin_FamilySpace": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "家庭空间"
+  },
+  "XPPlugin_XSportApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "极智驾驶"
+  },
+  "XPPlugin_ApParkApp": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "智能泊车"
+  },
+  "XPPlugin_DolbyMusic": {
+    "authority": "",
+    "fallbackUrl": "",
+    "name": "杜比音乐厅"
+  },
+  "XPPlugin_Cinema": {
+    "authority": "com.xiaopeng.homespace.HomeSpaceEnterHandler",
+    "fallbackUrl": "",
+    "name": "5D影院"
+  }
+}

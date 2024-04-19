@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "group_name": "常用",
+      "mini_list": [
+        {
+          "name": "e代驾",
+          "id": "2018040202492080",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/edaijia.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "航旅纵横",
+          "id": "2018111662149799",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/hanglv.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "墨迹天气",
+          "id": "2019042664330096",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/moji.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "途虎养车",
+          "id": "2017082508366771",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/tuhu.png"
+        },
+        {
+          "name": "驿公里洗车",
+          "id": "2019090266794548",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/yigongli.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        }
+      ]
+    },
+    {
+      "group_name": "推荐",
+      "mini_list": [
+        {
+          "name": "淘票票电影",
+          "id": "2018050402633231",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/taopiaopiao.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "UC头条",
+          "id": "2018112762323880",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/UC.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "天猫养车",
+          "id": "2018120462458287",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/tmallcar.png"
+        },
+        {
+          "name": "肯德基+",
+          "id": "2018090361289233",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/kfc.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "汉堡王King俱乐部",
+          "id": "2018121362506702",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/burgerking.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "大麦网",
+          "id": "2016122804685366",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/damai.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "车点点",
+          "id": "2018032202428491",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/chediandian.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "ETC服务",
+          "id": "2019041063858213",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/etc.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "国际驾照认证件",
+          "id": "2018010301534922",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/jiazhaorenzheng.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "智能挪车码",
+          "id": "2018012402058901",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/nuochema.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        },
+        {
+          "name": "码上挪车",
+          "id": "2017112100066662",
+          "iconName": "https://xps18.xiaopeng.com/prod/appstore/mini-image/mashangnuoche.png",
+          "params": "&mainConnectDelayPush=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES"
+        }
+      ]
+    }
+  ]
+}

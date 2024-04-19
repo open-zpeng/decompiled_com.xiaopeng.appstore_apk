@@ -1,0 +1,108 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "apps": [
+      {
+        "size": 24225.54,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "app_id": "5",
+        "app_type": "THIRD",
+        "app_name": "爱奇艺",
+        "package_name": "com.qiyi.video.pad",
+        "brief_desc": "超过十亿人使用的手机应用",
+        "app_icons": {
+          "small_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/iqiyi.png",
+          "large_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/iqiyi.png"
+        },
+        "version_name": "7.6.1",
+        "version_code": 80770,
+        "download_url": "http://dl01-pre.xiaopeng.com/test/appstore/apk/com.qiyi.video.pad_7.6.1_80770_mu1l.apk",
+        "show_back_button": true,
+        "allow_gear": "2",
+        "display_region": "1",
+        "update_time": 1575532576000
+      },
+      {
+        "size": 84527.0,
+        "md5": "7116ef666b4c1705a2c07c6674ae9d0e",
+        "app_id": "1",
+        "app_type": "THIRD",
+        "app_name": "58",
+        "package_name": "com.wuba",
+        "brief_desc": "人人信赖的生活服务平台，海量生活信息免费查询、发布。",
+        "app_icons": {
+          "small_icon": "112",
+          "large_icon": "323"
+        },
+        "version_name": "8.23.2",
+        "version_code": 82302,
+        "download_url": "http://dl01-pre.xiaopeng.com/test/appstore/apk/58_8.23.2_82302.apk",
+        "show_back_button": true,
+        "allow_gear": "2",
+        "display_region": "1",
+        "update_time": 1575708818000
+      },
+      {
+        "size": 15953.0,
+        "md5": "4c8a2bc1f6abe470c44a1e4cc97a9bb2",
+        "app_id": "3",
+        "app_type": "THIRD",
+        "app_name": "车点点",
+        "package_name": "com.chediandian.app",
+        "brief_desc": "车点点是洗车、加油、违章查询、车险、保养美容、道路救援等服务集一身的一站式车主平台，全国覆盖40000家门店，2000w！",
+        "app_icons": {
+          "small_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/chediandian.png",
+          "large_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/chediandian.png"
+        },
+        "version_name": "7.4.1",
+        "version_code": 256,
+        "download_url": "http://dl01-pre.xiaopeng.com/test/appstore/apk/chediandian_7.4.1_256.apk",
+        "show_back_button": true,
+        "allow_gear": "2",
+        "display_region": "1",
+        "update_time": 1575708818000
+      },
+      {
+        "size": 11468.0,
+        "md5": "f69b29acc91dcb6af3ecf75842b21f68",
+        "app_id": "4",
+        "app_type": "THIRD",
+        "app_name": "斗鱼",
+        "package_name": "com.douyu.hd.air.douyutv",
+        "brief_desc": "斗鱼-每个人的直播平台，你想看的都在这里！",
+        "app_icons": {
+          "small_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/douyu.png",
+          "large_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/icon/douyu.png"
+        },
+        "version_name": "1.2.1",
+        "version_code": 173,
+        "download_url": "http://dl01-pre.xiaopeng.com/test/appstore/apk/douyutvhd_1.2.1_173.apk",
+        "show_back_button": true,
+        "allow_gear": "2",
+        "display_region": "1",
+        "update_time": 1575708818000
+      },
+      {
+        "size": 51636.18,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "app_id": "59",
+        "app_type": "THIRD",
+        "app_name": "优酷视频-E28",
+        "package_name": "com.youku.phone",
+        "brief_desc": "待添加",
+        "app_icons": {
+          "small_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/app_icon_1575602242714_yakq.png",
+          "large_icon": "http://dl01-pre.xiaopeng.com/test/appstore/image/app_icon_1575602242714_yakq.png"
+        },
+        "version_name": "8.2.0",
+        "version_code": 208,
+        "download_url": "http://dl01-pre.xiaopeng.com/test/appstore/apk/youkushipin_208_jq0e.apk",
+        "show_back_button": true,
+        "allow_gear": "2",
+        "display_region": "1",
+        "update_time": 1575624160000
+      }
+    ]
+  }
+}

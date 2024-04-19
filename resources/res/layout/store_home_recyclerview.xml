@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.appstore.common_ui.common.base.XVerticalRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/AppTheme" android:id="@+id/recycler_view" android:paddingBottom="@dimen/contact_margin_bottom" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="@dimen/home_content_margin_top"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/fragment_scene_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.appstore.common_ui.common.base.FadingEdgeRecyclerView android:id="@+id/recycler_view" android:paddingBottom="@dimen/content_margin_bottom" android:visibility="gone" android:fadingEdge="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/activity_content_margin_top" android:nestedScrollingEnabled="false"/>
+    <include android:id="@+id/layout_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_net_error"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/text_color_title" android:layout_gravity="center" android:id="@+id/tv_empty_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_data_page"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:indeterminate="true" style="@style/XProgressBar.Circular.Large"/>
+</FrameLayout>

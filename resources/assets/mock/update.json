@@ -1,0 +1,113 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "apps": [
+            {
+                "size": 25133.0,
+                "md5": "242a743f66dded115a26e928bf03d7d7",
+                "app_id": "5",
+                "app_type": "THIRD",
+                "app_name": "爱奇艺",
+                "package_name": "com.qiyi.video.pad",
+                "brief_desc": "超过十亿人使用的手机应用",
+                "app_icons": {
+                    "small_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/iqiyi.png",
+                    "large_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/iqiyi.png"
+                },
+                "version_name": "7.4",
+                "version_code": 80740,
+                "download_url": "http://dl01-pre.xiaopeng.com/staging/appstore/apk/iqiyihd_7.4_80740.apk",
+                "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                "show_back_button": true,
+                "allow_gear": "2",
+                "display_region": "1",
+                "update_time": 1575711296000
+            },
+            {
+                "size": 29379.82,
+                "md5": "d41d8cd98f00b204e9800998ecf8427e",
+                "app_id": "6",
+                "app_type": "THIRD",
+                "app_name": "掌阅",
+                "package_name": "com.chaozh.iReaderFree",
+                "brief_desc": "十年匠心，数字阅读的不二选择！",
+                "app_icons": {
+                    "small_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/ireader.png",
+                    "large_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/ireader.png"
+                },
+                "version_name": "7.23.0",
+                "version_code": 72301,
+                "download_url": "http://dl01-pre.xiaopeng.com/staging/appstore/apk/%E6%8E%8C%E9%98%85_ygm6.apk",
+                "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                "show_back_button": true,
+                "allow_gear": "2",
+                "display_region": "1",
+                "update_time": 1575889385000
+            },
+            {
+                "size": 11468.0,
+                "md5": "f69b29acc91dcb6af3ecf75842b21f68",
+                "app_id": "4",
+                "app_type": "THIRD",
+                "app_name": "斗鱼",
+                "package_name": "com.douyu.hd.air.douyutv",
+                "brief_desc": "斗鱼-每个人的直播平台，你想看的都在这里！",
+                "app_icons": {
+                    "small_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/douyu.png",
+                    "large_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/douyu.png"
+                },
+                "version_name": "1.2.1",
+                "version_code": 173,
+                "download_url": "http://dl01-pre.xiaopeng.com/staging/appstore/apk/douyutvhd_1.2.1_173.apk",
+                "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                "show_back_button": true,
+                "allow_gear": "2",
+                "display_region": "1",
+                "update_time": 1575711296000
+            },
+            {
+                "size": 87216.0,
+                "md5": "355f3675bfb40725d2423dc430a3b761",
+                "app_id": "7",
+                "app_type": "THIRD",
+                "app_name": "京东",
+                "package_name": "com.jingdong.app.mall",
+                "brief_desc": "挑好物，上京东",
+                "app_icons": {
+                    "small_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/jd.png",
+                    "large_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/jd.png"
+                },
+                "version_name": "8.1.4",
+                "version_code": 68202,
+                "download_url": "http://dl01-pre.xiaopeng.com/staging/appstore/apk/jd_8.1.4_68202.apk",
+                "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                "show_back_button": true,
+                "allow_gear": "2",
+                "display_region": "1",
+                "update_time": 1575711296000
+            },
+            {
+                "size": 44829.0,
+                "md5": "46c3caf336c4825781542ff345f00915",
+                "app_id": "2",
+                "app_type": "THIRD",
+                "app_name": "宝宝巴士儿歌",
+                "package_name": "com.sinyee.babybus.chants.pad",
+                "brief_desc": "宝宝巴士儿歌",
+                "app_icons": {
+                    "small_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/babybus.png",
+                    "large_icon": "http://dl01-pre.xiaopeng.com/staging/appstore/image/icon/babybus.png"
+                },
+                "version_name": "2.4.2",
+                "version_code": 2402,
+                "download_url": "http://dl01-pre.xiaopeng.com/staging/appstore/apk/babybushd_2.4.2_2402.apk",
+                "config_url": "http://dl01-pre.xiaopeng.com/test/appstore/image/com.mgtv.tv_gp39.json",
+                "show_back_button": true,
+                "allow_gear": "2",
+                "display_region": "1",
+                "update_time": 1575711296000
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package proto;
+
+import "app_item.proto";
+
+option java_package = "com.xiaopeng.appstore.protobuf";
+option java_multiple_files = true;
+
+message AppStoreHomeResponseProto {
+  int32 code = 1;
+  string msg = 2;
+  AppStoreHomeDataWrapperProto data = 3;
+}
+
+message AppStoreHomeDataWrapperProto {
+  int32 content_type = 1;
+  string layout = 2;
+  AppStoreHomeDataProto data = 3;
+}
+
+message AppStoreHomeDataProto {
+  string id = 1;
+  string desc = 2;
+  string title = 3;
+  repeated AppStoreHomeListProto list = 4;
+}
+
+message AppStoreHomeListProto {
+  int32 content_type = 1;
+  string layout = 2;
+  AppDataProto data = 3;
+}
+
+message AppDataProto {
+  string id = 1;
+  repeated AppDataContentProto list = 2;
+  string title = 3;
+}
+
+message AppDataContentProto {
+  int32 content_type = 1;
+  AppItemProto data = 2;
+}

@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package proto;
+import "app_icon.proto";
+
+option java_package = "com.xiaopeng.appstore.protobuf";
+option java_multiple_files = true;
+
+message AppItemProto {
+  // 0:未知 1~100:已安装应用(1:已安装) 101~200:未安装应用(101:未安装本地应用;102:未安装商店应用;103:预装应用) 1001:小程序入口
+  int32 type = 1;
+  // 0:未下载; 101~200:下载安装中(101:加载中; 102:下载中; 103:安装中) 201:已暂停; 251:下载失败;
+  int32 status = 2;
+  float progress = 3;
+
+  // 本地图标
+  bytes icon = 4;
+  string name = 5;
+  string packageName = 6 [json_name="package_name"];
+
+  string id = 7;
+  string desc = 8;
+  string size = 9;
+  string md5 = 10;
+  int32 remoteStatus = 11 [json_name="status"];
+  string title = 12;
+  repeated string adImg = 13 [json_name="ad_img"];
+  // 图标链接
+  AppIconDataProto appIcons = 14 [json_name="app_icons"];
+  int64 versionCode = 15 [json_name="version_code"];
+  string downloadUrl = 16 [json_name="download_url"];
+  string configUrl = 17 [json_name="config_url"];
+  string configMd5 = 18 [json_name="config_md5"];
+  string version_name = 19;
+}
+
+message AppListProto {
+  repeated AppItemProto appItem = 1;
+}
+
+

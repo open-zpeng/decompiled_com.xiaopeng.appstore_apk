@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.appstore.appstore_ui.view.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_detail_image_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/item_detail_image_space" app:sl_cornerRadius="15dp" app:sl_shadowColor="@android:color/transparent" app:sl_shadowRadius="0dp" app:sl_shadowSides="NONE">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_detail" android:tag="binding_1" android:layout_width="@dimen/item_detail_image_width" android:layout_height="@dimen/item_detail_image_height" android:scaleType="centerCrop"/>
+</com.xiaopeng.appstore.appstore_ui.view.ShadowLayout>

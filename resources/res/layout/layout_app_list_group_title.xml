@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/text_color_small_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_list_title_margin_top" android:layout_marginBottom="@dimen/margin_bottom_app_name" android:layout_marginStart="@dimen/app_list_title_margin_start"/>

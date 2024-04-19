@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start|center_vertical" android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/x_btn_ghost_large_radius"/>
+            <solid android:color="@color/progress_btn_bg_color_selector"/>
+        </shape>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/x_btn_ghost_large_radius"/>
+                <solid android:color="@color/progress_btn_progress_color"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

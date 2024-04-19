@@ -1,0 +1,100 @@
+[
+  {
+    "mXpAppTitle": "极智驾驶",
+    "resId": "applist_xsport",
+    "mXpAppId": "XPPlugin_XSportApp",
+    "mXpAppPage": "XSportMainUI",
+    "url": "appID=XPPlugin_XSportApp&page=XSportMainUI"
+  },
+  {
+    "mXpAppTitle": "设置",
+    "resId": "applist_carcontrol",
+    "mXpAppId": "XPPlugin_CarControlApp",
+    "mXpAppPage": "CarControl.CarControl_L01",
+    "url": "appID=XPPlugin_CarControlApp&page=CarControl.CarControl_L01"
+  },
+  {
+    "mXpAppTitle": "小鹏实验室",
+    "resId": "applist_laboratory",
+    "mXpAppId": "XPPlugin_XPLabApp",
+    "mXpAppPage": "XPLab.XPLaboratory_L01",
+    "url": "appID=XPPlugin_XPLabApp&page=XPLab.XPLaboratory_L01"
+  },
+  {
+    "mXpAppTitle": "能量中心",
+    "resId": "applist_energy",
+    "mXpAppId": "XPPlugin_EnergyCenterApp",
+    "mXpAppPage": "XPPlugin_EnergyCenter.EnergyCenterView",
+    "url": "appID=XPPlugin_EnergyCenterApp&page=XPPlugin_EnergyCenter.EnergyCenterView"
+  },
+  {
+    "mXpAppTitle": "蓝牙电话",
+    "resId": "applist_phone",
+    "mXpAppId": "XPPlugin_BlueToothCallApp",
+    "mXpAppPage": "BlueToothCallView",
+    "url": "appID=XPPlugin_BlueToothCallApp&page=BlueToothCallView"
+  },
+  {
+    "mXpAppTitle": "个人中心",
+    "resId": "applist_user",
+    "mXpAppId": "XPPlugin_UserCenterApp",
+    "mXpAppPage": "UserCenterUI",
+    "url": "appID=XPPlugin_UserCenterApp&page=UserCenterUI"
+  },
+  {
+    "mXpAppTitle": "小鹏音乐",
+    "resId": "applist_music",
+    "mXpAppId": "XPPlugin_MusicApp",
+    "mXpAppPage": "MusicMainUI",
+    "url": "appID=XPPlugin_MusicApp&page=MusicMainUI"
+  },
+  {
+    "mXpAppTitle": "摄像头",
+    "resId": "applist_camera",
+    "mXpAppId": "XPPlugin_CameraApp",
+    "mXpAppPage": "CamAppManager",
+    "url": "appID=XPPlugin_CameraApp&page=CamAppManager"
+  },
+  {
+    "mXpAppTitle": "小P",
+    "resId": "applist_xiaop",
+    "mXpAppId": "XPPlugin_XiaoPApp",
+    "mXpAppPage": "AIAssistanceApp",
+    "url": "appID=XPPlugin_XiaoPApp&page=AIAssistanceApp"
+  },
+  {
+    "mXpAppTitle": "智能泊车",
+    "resId": "applist_smartparking",
+    "mXpAppId": "XPPlugin_ApParkApp",
+    "mXpAppPage": "XPPlugin_ApParkApp.ParkingCar_L01",
+    "url": "appID=XPPlugin_ApParkApp&page=XPPlugin_ApParkApp.ParkingCar_L01"
+  },
+  {
+    "mXpAppTitle": "用户手册",
+    "resId": "applist_manual",
+    "mXpAppId": "XPPlugin_UserManualUIApp",
+    "mXpAppPage": "UserManualVIew",
+    "url": "appID=XPPlugin_UserManualUIApp&page=UserManualVIew"
+  },
+  {
+    "mXpAppTitle": "智能空间",
+    "resId": "applist_smartspace",
+    "mXpAppId": "XPPlugin_FamilySpace",
+    "mXpAppPage": "XSpaceMainUI",
+    "url": "appID=XPPlugin_FamilySpace&page=XSpaceMainUI"
+  },
+  {
+    "mXpAppTitle": "5D影院",
+    "resId": "applist_5d",
+    "mXpAppId": "XPPlugin_Cinema",
+    "mXpAppPage": "CinemaMainUI",
+    "url": "appID=XPPlugin_Cinema&page=CinemaMainUI"
+  },
+  {
+    "mXpAppTitle": "小鹏音乐厅",
+    "resId": "applist_dolby_hall",
+    "mXpAppId": "XPPlugin_DolbyMusic",
+    "mXpAppPage": "XPPlugin_DolbyMusic.DolbyMusicMain",
+    "url": "appID=XPPlugin_DolbyMusic&page=XPPlugin_DolbyMusic.DolbyMusicMain"
+  }
+]

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto;
+
+//需要导入any.proto文件才可实现泛型
+//import "google/protobuf/any.proto";
+
+option java_package = "com.xiaopeng.appstore.protobuf";
+option java_multiple_files = true;
+
+message HttpResultResponse {
+  int32 code = 1;
+  string msg = 2;
+//  google.protobuf.Any data = 3;
+}
+

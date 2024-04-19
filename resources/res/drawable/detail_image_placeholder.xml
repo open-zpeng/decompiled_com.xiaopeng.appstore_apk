@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/item_detail_image_height" android:width="@dimen/item_detail_image_width" android:drawable="@drawable/x_bg_pic"/>
+    <item android:gravity="center" android:height="@dimen/x_ic_svg_medium_size" android:width="@dimen/x_ic_svg_medium_size" android:drawable="@drawable/ic_xlarge_xplogo"/>
+</layer-list>

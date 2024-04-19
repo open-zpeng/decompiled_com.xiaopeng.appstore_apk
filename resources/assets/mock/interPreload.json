@@ -1,0 +1,81 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "layout": "{\"type\":20000}",
+    "data": {
+      "id": "6248",
+      "list": [
+        {
+          "layout": "{\"type\":21001}",
+          "data": {
+            "id": "6251",
+            "list": [
+              {
+                "data": {
+                  "id": "224",
+                  "desc": "目前在挪威预装列表",
+                  "size": 133237.38,
+                  "md5": "2f3592533866169483d8a67bc73a628e",
+                  "status": 1,
+                  "title": "酷我音乐",
+                  "package_name": "cn.kuwo.player",
+                  "app_icons": {
+                    "small_icon": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/cn.kuwo.player/f7233e0e83ec4acca573d00dcbbc859d.png",
+                    "large_icon": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/cn.kuwo.player/f7233e0e83ec4acca573d00dcbbc859d.png"
+                  },
+                  "version_code": 10100,
+                  "download_url": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/cn.kuwo.player/c4576513e41a47989c3786a241b41440.apk",
+                  "config_url": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/cn.kuwo.player/V1MrAn1V1MrAna0cfa0ac2dae4b66864772cd0a9b9ca9.json",
+                  "config_md5": "69c9962ca01ba38147a809891c57b43d"
+                },
+                "content_type": 2
+              },
+              {
+                "data": {
+                  "id": "237",
+                  "size": 13256.21,
+                  "md5": "485952c4c181734250fe1214d86c79fc",
+                  "status": 1,
+                  "title": "电池寿命修复大师",
+                  "package_name": "com.finger.battery.power",
+                  "app_icons": {
+                    "small_icon": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/com.finger.battery.power/88f9cc62ab4d47299a47b7b75185801b.png",
+                    "large_icon": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/com.finger.battery.power/e893af87e3fd452d9969be8ddd549e84.png"
+                  },
+                  "version_code": 282,
+                  "download_url": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/com.finger.battery.power/e11cf559bf6a4ff9af35fc32943d3f76.apk",
+                  "config_url": "https://dl01-pre.xiaopeng.com/dev/appstore/apk/com.finger.battery.power/V1MrAn1V1MrAne486bf98cf8c4e669635e7f0726e3a04.json",
+                  "config_md5": "07DC0C09DF78123FCD9FD87DB3F1C100"
+                },
+                "content_type": 2
+              },
+              {
+                "data": {
+                  "id": "228",
+                  "size": 11620.39,
+                  "md5": "ae1b075dbbf2f3fc11fd2b649d86080e",
+                  "status": 1,
+                  "title": "KK秀场",
+                  "package_name": "com.dangbei.kklive",
+                  "app_icons": {
+                    "small_icon": "https://xp-pre-lbs.s3-accelerate.amazonaws.com/dev/appstore/apk/com.dangbei.kklive/66f6e60d81b44095a03191283919f652.png",
+                    "large_icon": "https://xp-pre-lbs.s3-accelerate.amazonaws.com/dev/appstore/apk/com.dangbei.kklive/66f6e60d81b44095a03191283919f652.png"
+                  },
+                  "version_code": 3,
+                  "download_url": "https://xp-pre-lbs.s3-accelerate.amazonaws.com/dev/appstore/apk/com.dangbei.kklive/c325bee6fb0f466c85e662fbe4d5a82e.apk",
+                  "config_url": "https://xp-pre-lbs.s3-accelerate.amazonaws.com/dev/appstore/apk/com.dangbei.kklive/V1MrAn1V1MrAn4270d43bd34f49d6a52917832742b1a8.json",
+                  "config_md5": "8f8bd9484f55c4d5da7769e15e9c6c11"
+                },
+                "content_type": 2
+              }
+            ]
+          },
+          "content_type": 1
+        }
+      ],
+      "title": "465"
+    },
+    "content_type": 1
+  }
+}

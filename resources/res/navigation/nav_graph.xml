@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph" app:startDestination="@+id/storeHomeFragment">
+    <keep_state_fragment android:label="StoreHomeFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.StoreHomeFragment" android:id="@+id/storeHomeFragment">
+        <argument android:name="PendingUpgradeCount" android:defaultValue="0" app:argType="integer"/>
+        <action android:id="@+id/action_storeHomeFragment_to_pendingUpdateFragment" app:destination="@+id/pendingUpdateFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+        <action android:id="@+id/action_storeHomeFragment_to_activityFragment" app:destination="@+id/activityFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+        <action android:id="@+id/action_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="PendingUpdateFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.PendingUpgradeFragment" android:id="@+id/pendingUpdateFragment">
+        <action android:id="@+id/action_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="ItemDetailFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.ItemDetailFragment" android:id="@+id/itemDetailFragment">
+        <action android:id="@+id/action_itemDetailFragment_to_permissionFragment" app:destination="@+id/permissionFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+        <action android:id="@+id/action_itemDetailFragment_to_privatePolicyFragment" app:destination="@+id/privatePolicyFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="PermissionFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.PermissionFragment" android:id="@+id/permissionFragment"/>
+    <keep_state_fragment android:label="PrivatePolicyFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.PrivatePolicyFragment" android:id="@+id/privatePolicyFragment"/>
+    <keep_state_fragment android:label="ActivityFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.SceneFragment" android:id="@+id/activityFragment">
+        <action android:id="@+id/action_activityFragment_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:launchSingleTop="true"/>
+        <action android:id="@+id/action_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </keep_state_fragment>
+    <action android:id="@+id/back_to_home" app:destination="@+id/storeHomeFragment" app:popUpTo="@+id/nav_graph" app:popUpToInclusive="true"/>
+    <action android:id="@+id/go_to_itemDetail" app:destination="@+id/itemDetailFragment" app:launchSingleTop="true"/>
+</navigation>

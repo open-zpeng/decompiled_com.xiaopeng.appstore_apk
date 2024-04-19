@@ -1,0 +1,14 @@
+{
+  "0":{"authority":"","fallbackUrl":"","name": "小鹏音乐"},
+  "1":{"authority":"","fallbackUrl":"","name": "蓝牙电话"},
+  "2":{"authority":"","fallbackUrl":"","name": "能量中心"},
+  "3":{"authority":"","fallbackUrl":"","name": "摄像头"},
+  "4":{"authority":"","fallbackUrl":"","name": "设置"},
+  "5":{"authority":"","fallbackUrl":"","name": "小鹏实验室"},
+  "6":{"authority":"","fallbackUrl":"","name": "个人中心"},
+  "7":{"authority":"","fallbackUrl":"","name": "用户手册"},
+  "8":{"authority":"","fallbackUrl":"","name": "小P"},
+  "9":{"authority":"","fallbackUrl":"","name": "家庭空间"},
+  "10":{"authority":"","fallbackUrl":"","name": "xsport"},
+  "11":{"authority":"com.xiaopeng.homespace.HomeSpaceEnterHandler","fallbackUrl":"","name": "5D影院"}
+}

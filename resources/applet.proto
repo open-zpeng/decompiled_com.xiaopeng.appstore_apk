@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+import "app_item.proto";
+
+option java_package = "com.xiaopeng.appstore.protobuf";
+option java_multiple_files = true;
+
+message AppletGroupProto {
+  string group = 1;
+  repeated AppItemProto appletList = 2;
+}
+
+message AppletGroupListProto {
+  repeated AppletGroupProto appletGroupList = 1;
+}
+
+

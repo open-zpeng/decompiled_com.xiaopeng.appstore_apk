@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/xLinearLayout" android:layout_width="@dimen/icon_max_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/app_list_item_layout_decoration_width" android:layout_marginEnd="@dimen/app_list_item_layout_decoration_width" app:vuiElementType="GROUP">
+    <FrameLayout android:id="@+id/layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.appstore.common_ui.icon.AppIconView android:id="@+id/iv_icon" android:layout_width="@dimen/icon_view_size" android:layout_height="@dimen/icon_view_size" android:scaleType="center" android:stateListAnimator="@drawable/app_icon_state_list_anim"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/text_size_app_name" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|top" android:id="@+id/tv_unread" android:background="@drawable/bg_unread_bubble" android:visibility="gone" android:layout_width="@dimen/app_list_item_layout_unread_notification_icon_size" android:layout_height="@dimen/app_list_item_layout_unread_notification_icon_size" android:layout_marginTop="@dimen/icon_bubble_margin" android:layout_marginEnd="@dimen/icon_bubble_margin"/>
+    </FrameLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_bottom_app_name">
+        <ViewStub android:id="@+id/progress_bar_view_stub" android:layout="@layout/icon_progress_bar_layout" android:layout_width="@dimen/x_circular_progress_size_small" android:layout_height="@dimen/x_circular_progress_size_small" android:layout_marginTop="@dimen/icon_progress_margin_top" android:layout_marginEnd="@dimen/icon_progress_margin_end"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/icon_new_indicator_margin_start" style="@style/AppListItemTitleStyle"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

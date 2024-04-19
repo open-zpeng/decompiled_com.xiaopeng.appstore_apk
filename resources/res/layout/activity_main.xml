@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.appstore.ui.NonSwipeableViewPager android:id="@+id/view_pager" android:layout_width="wrap_content" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:id="@+id/tabs_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tab_margin_top" app:layout_constraintEnd_toStartOf="@+id/view_pager" app:layout_constraintStart_toEndOf="@+id/view_pager" app:layout_constraintTop_toTopOf="0">
+        <com.xiaopeng.appstore.common_ui.widget.XTabLayout android:id="@+id/tab_layout" android:layout_centerInParent="true" style="@style/AppStoreTabLayout"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/iv_back_btn" android:layout_marginTop="@dimen/title_back_button_margin_top" android:layout_marginStart="@dimen/title_back_button_margin_start" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/XButton.Icon.Large.Close"/>
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/btn_usb" android:visibility="gone" android:src="@drawable/ic_mid_statusbar_usb" android:layout_marginStart="@dimen/usb_btn_margin_start" app:layout_constraintStart_toEndOf="@+id/iv_back_btn" app:layout_constraintTop_toTopOf="@+id/iv_back_btn" style="@style/XButton.Icon.Large.Close"/>
+    <androidx.constraintlayout.widget.Group android:id="@+id/title_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="iv_back_btn,tabs_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

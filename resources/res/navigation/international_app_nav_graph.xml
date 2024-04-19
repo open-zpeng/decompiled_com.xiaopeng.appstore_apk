@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/international_app_list_nav_graph" app:startDestination="@+id/appListFragment">
+    <keep_state_fragment android:label="AppListFragment" android:name="com.xiaopeng.appstore.international.list.InternationalAppListFragment" android:id="@+id/appListFragment">
+        <action android:id="@+id/action_appListFragment_to_pendingUpdateFragment" app:destination="@+id/pendingUpdateFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+        <action android:id="@+id/action_appListFragment_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="PendingUpdateFragment" android:name="com.xiaopeng.appstore.international.upgrade.InternationalPendingUpgradeFragment" android:id="@+id/pendingUpdateFragment">
+        <action android:id="@+id/action_pendingUpdateFragment_to_itemDetailFragment" app:destination="@+id/itemDetailFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="ItemDetailFragment" android:name="com.xiaopeng.appstore.international.InternationalItemDetailFragment" android:id="@+id/itemDetailFragment">
+        <action android:id="@+id/action_itemDetailFragment_to_permissionFragment" app:destination="@+id/permissionFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+        <action android:id="@+id/action_itemDetailFragment_to_privatePolicyFragment" app:destination="@+id/privatePolicyFragment" app:enterAnim="@anim/nav_enter_anim" app:exitAnim="@anim/nav_exit_anim" app:launchSingleTop="true" app:popEnterAnim="@anim/nav_pop_enter_anim" app:popExitAnim="@anim/nav_pop_exit_anim"/>
+    </keep_state_fragment>
+    <keep_state_fragment android:label="PermissionFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.PermissionFragment" android:id="@+id/permissionFragment"/>
+    <keep_state_fragment android:label="PrivatePolicyFragment" android:name="com.xiaopeng.appstore.appstore_ui.fragment.PrivatePolicyFragment" android:id="@+id/privatePolicyFragment"/>
+    <action android:id="@+id/back_to_home" app:destination="@+id/appListFragment" app:popUpTo="@+id/international_app_list_nav_graph" app:popUpToInclusive="true"/>
+    <action android:id="@+id/go_to_itemDetail" app:destination="@+id/itemDetailFragment" app:launchSingleTop="true"/>
+</navigation>
